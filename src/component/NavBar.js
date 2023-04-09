@@ -11,8 +11,8 @@ background-color: #f2f2f2;
 position: fixed;
 bottom: 0px;
 width: 100%;
-height: 2rem;
-padding: 1rem 0;
+height: 3vh;
+padding: 2vh 0;
 text-align: center;
 align-items: center;
 display: flex;
@@ -23,13 +23,14 @@ justify-content: space-evenly;
 function NavBar() {
   return (
     <>
+    {/* <div style={{backgroundimage: "url(/image.png)" }}>아니</div> */}
     <Nav>
-        <ListIcon />
-        <TodayIcon />
-        <HomeIcon />
-        <SavingsIcon />
-        <PersonIcon />
-    </Nav>
+          <ListIcon />
+          <TodayIcon />
+          <HomeIcon />
+          <SavingsIcon />
+          <PersonIcon />
+      </Nav>
     </>
   )
 }
